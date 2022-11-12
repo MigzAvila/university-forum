@@ -21,9 +21,8 @@ function Copyright(props) {
             {'Copyright © '}
             <Link color="inherit" href="https://mui.com/">
                 Your Website
-            </Link>{' '}
+            </Link>
             {new Date().getFullYear()}
-            {'.'}
         </Typography>
     );
 }
@@ -72,7 +71,7 @@ const index = () => {
                                 alignItems: 'center',
                             }}
                         >
-                            <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+                            <Avatar sx={{ m: 1 }} style={{ backgroundColor: "#9e4ed1" }}>
                                 <LockOutlinedIcon />
                             </Avatar>
                             <Typography component="h1" variant="h5">
@@ -108,6 +107,7 @@ const index = () => {
                                     fullWidth
                                     variant="contained"
                                     sx={{ mt: 3, mb: 2 }}
+                                    style={{ backgroundColor: "#9e4ed1"}}
                                 >
                                     Sign In
                                 </Button>

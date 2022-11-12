@@ -20,8 +20,13 @@
 }
 
 .main .sectionOne {
-  /* background-color: purple; */
-  background-image: url(../public/login-background.jpg);
+  background: rgb(170, 106, 212);
+  background: linear-gradient(
+    180deg,
+    rgba(170, 106, 212, 1) 10%,
+    rgba(201, 141, 240, 1) 38%,
+    rgba(170, 106, 212, 1) 100%
+  );
   margin: 15px;
   text-align: left;
   color: white;
@@ -30,8 +35,11 @@
 .sectionOne .title {
   font-size: 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .main {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .sectionOne {
+    display: none;
   }
 }
