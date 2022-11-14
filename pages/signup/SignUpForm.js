@@ -80,23 +80,14 @@ export default function SignUpForm() {
                             </Grid>
                             <Grid item xs={12} justifyContent="center">
                                 <FormControlLabel
-                                    control={<Checkbox value="allowExtraEmails" color="primary" />}
-                                    label="I want to receive inspiration, marketing promotions and updates via email."
+                                    control={<Checkbox value="allowExtraEmails" color="primary"/>}
+                                    label="I want to the terms of creating a new account with Forum Now"
                                 />
                             </Grid>
                         </Grid>
-                        <Button
-                            type="submit"
-                            fullWidth
-                            variant="contained"
-                            sx={{ mt: 3, mb: 2 }}
-                            style={{ backgroundColor: "#9e4ed1" }}
-                        >
-                            Sign Up
-                        </Button>
                         <Grid container justifyContent="center">
                             <Grid item>
-                                <Link href="#" variant="body2">
+                                <Link href="/login" variant="body2">
                                     Already have an account? Sign in
                                 </Link>
                             </Grid>
